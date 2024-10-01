@@ -1,3 +1,5 @@
+import 'package:f/homepage.dart';
+import 'package:f/riwayat.dart';
 
 import 'package:f/permision.dart';
 
@@ -13,9 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => Permision(),
+        '/': (context) => Riwayat(),
       },
-      //Search
     );
   }
 }
